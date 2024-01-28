@@ -1,0 +1,38 @@
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+}
+
+.todoitems-container{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.todoitems-text{
+    padding-left: 16px;
+    color: #404036;
+    font-size: 22px;
+}
+.todoitems-cross-icon{
+    cursor: pointer;
+    padding-right: 25px;
+}
+.line-through{
+    text-decoration: line-through solid #6e8577 3px;
+}
+.img{
+    width: 43px;
+    height: 43px;
+    resize: cover;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #e4e4e4; 
+    margin-top: 5px; 
+
+    
+
+}
